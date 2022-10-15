@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- LINK GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="./src/css/imports.css" />
+    <title>Mini portifólio</title>
+  </head>
+  <body>
+    <main class="card">
+      <div class="my-informations">
+        <img src="./src/images/foto-perfil.jpg" alt="prophile-photo" class="prophile-photo" />
+        <h1 class="name">Miguel Silva</h1>
+        <h2 class="office">Desenvolvedor Frontend Júnior</h2>
+      </div>
+
+      <div class="content">
+        <ul class="tabs">
+          <li class="tab tab-selecting" id="for-me">
+            <img src="./src/images/sobre.gif" alt="icone-sobre-mim" />
+          </li>
+          <li class="tab" id="my-social">
+            <img src="./src/images/coracao.gif" alt="icone-redes-sociais" />
+          </li>
+        </ul>
+
+        <div class="content-tabs">
+          <div class="information tab-selecting" id="information-for-me">
+            <h3 class="sub-title">Sobre</h3>
+            <div class="description">
+              <p>Oi! meu nome é Miguel Silva, seja bem-vindo(a)!</p>
+              <p>
+                Sou uma pessoa apaixonada pela programação desde que eu tinha 15
+                anos. Sempre tive o sonho de trabalhar com programação e
+                atualmente comecei a colocar esse sonho em prática estudando
+                <span>HTML, CSS e JavaScript</span>.
+              </p>
+            </div>
+          </div>
+          <div class="information" id="information-my-social">
+            <h3 class="sub-title">Minhas redes</h3>
+            <ul class="social">
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1HHjyWuSWecuTnIUTZm1wpzJzVaH9AIR7/view?usp=sharing"
+                  target="blank"
+                  class="curriculo"
+                  >Curriculo</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/miguel-silva-589423206/"
+                  target="blank"
+                  class="linkedin"
+                  >LinkedIn</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Antoni0-Miguel"
+                  target="blank"
+                  class="github"
+                  >GitHub</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Link script -->
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
