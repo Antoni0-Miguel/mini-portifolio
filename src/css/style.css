@@ -33,6 +33,8 @@ body{
 }
 
 .prophile-photo{
+  width: 96px;
+  heigth: 96px;
   border-radius: 50px;
   border: 4px solid #02d08f;
 
